@@ -1,0 +1,40 @@
+.img_list {
+    display: flex;
+    flex-direction: row;
+}
+.alert_zone {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: darkgray;
+    opacity: 0.5;
+    top: 0;
+}
+.alert_content {
+    position: fixed;
+    top: 100px;
+    height: 300px;
+    width: 500px;
+    left: 35vw;
+    border-radius: 8px;
+    background: white;
+}
+.close {
+    padding: 8px;
+    width: 15px;
+    border: 1px solid darkslateblue;
+    border-radius: 8px;
+    background-color: darkgray;
+    opacity: 0.8;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+.img_content {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.hide {
+    display: none;
+}
